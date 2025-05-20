@@ -400,6 +400,16 @@ body{
 
 #carousel1{margin-bottom: 135px;}
 
+.sem-marcador{
+    list-style: disc !important;
+    margin: 20px auto;
+}
+.marcador-padrao .sem-marcador li{
+    background: none;
+    list-style: inherit;
+    padding-left: 0;
+}
+
 @media (max-width: 700px){
     .lista{
         background: none;
