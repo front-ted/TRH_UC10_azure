@@ -730,3 +730,8 @@ iframe, iframe.youtube-pl{
 .citacao {padding-left: 20%;}
 .citacao p{font-size: .9em;}
 .mb-5, .my-5, .mt-5{margin: auto !important;}
+
+.modal.transcricao, .transcricao{
+    border: 2px solid #000;
+    padding: 10px;
+  }

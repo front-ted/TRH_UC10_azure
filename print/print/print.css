@@ -493,4 +493,9 @@
   p.text-center {
     text-align: left !important;
   }
+
+  .modal.transcricao, .transcricao{
+    border: 2px solid #000;
+    padding: 10px;
+  }
 }
