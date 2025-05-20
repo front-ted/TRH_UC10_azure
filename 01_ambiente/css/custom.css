@@ -1,0 +1,149 @@
+body{
+    background: url('../img/bg_elemento3.png') no-repeat right bottom 25% / 15%,
+	url('../img/bg_elemento2.png') no-repeat left top 48% / 15%, 
+	url('../img/bg_elemento1.png') no-repeat right top 25% / 15%, 
+	url('../img/bg.jpg') no-repeat center center fixed;
+	padding-bottom: 100px;
+}
+.painel1 button{
+	position: relative;
+	width: 200px;
+	height: 162px;
+	border: none;
+	background-color: transparent;
+	margin: 20px 0;
+}
+.painel1 .bt-politica{
+	background: url('../img/bt1.png') no-repeat center;
+}
+.painel1 .bt-relacionamentos{
+	background: url('../img/bt2.png') no-repeat center;
+}
+.painel1 .bt-postura{
+	background: url('../img/bt3.png') no-repeat center;
+}
+.painel1 .bt-etica{
+	background: url('../img/bt4.png') no-repeat center;
+}
+.painel1 button::before{
+	content: '';
+	display: none;
+	background: url('../img/circulo_hover.png') no-repeat;
+	width: 163px;
+	height: 162px;
+	position: absolute;
+	top: -15px;
+    left: 20px;
+    margin: auto;
+	z-index: -1;
+	-webkit-animation: rotate-center 5s linear infinite both;
+	        animation: rotate-center 5s linear infinite both;
+}
+.painel1 button:hover::before{display: block;}
+.painel1 button span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 200px;
+}
+.painel1 button.check.visitado::after{
+    bottom: 35px;
+    right: 0;
+    top: unset;
+}
+
+
+@-webkit-keyframes rotate-center {
+	0% {
+	  -webkit-transform: rotate(0);
+			  transform: rotate(0);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+			  transform: rotate(360deg);
+	}
+}
+@keyframes rotate-center {
+	0% {
+		-webkit-transform: rotate(0);
+				transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+	}
+}
+
+.infografico1{
+	background: rgb(255,255,255);
+	background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(222,133,165,1) 100%);
+	border-radius: 40px;
+	width: 750px;
+	max-width: 80%;
+	margin: 50px auto;
+}
+.infografico1 p{
+	padding: 25px 30px;
+	border-bottom: 4px solid #fff;
+	margin: 0;
+	position: relative;
+	padding-left: 50px;
+}
+.infografico1 p::after{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	border-radius: 100%;
+	position: absolute;
+	left: -60px;
+	top: 0;
+	bottom: 0;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 15px;
+	margin: auto;
+	border: 3px solid transparent;
+	background: linear-gradient(#fff, #fff) padding-box,
+	linear-gradient(300deg, var(--cor-primaria) 10%, #fff 92%) border-box;
+	color: #000;
+}
+.infografico1 p:first-child::after{
+	content: 'P';
+	color: #b73061;
+}
+.infografico1 p:nth-child(2)::after{
+	content: 'E';
+	color: #b73061;
+}
+.infografico1 p:nth-child(3)::after{
+	content: 'S';
+	color: #b73061;
+}
+.infografico1 p:nth-child(4)::after{
+	content: 'T';
+	color: #b73061;
+}
+.infografico1 p:nth-child(5)::after{
+	content: 'A';
+	color: #b73061;
+}
+.infografico1 p:nth-child(6)::after{
+	content: 'L';
+	color: #b73061;
+}
+.infografico1 p:last-child{border: none;}
+
+@media (min-width: 780px){
+	.max-width{
+		max-width: 70%;
+	}
+}
+@media (max-width: 1280px){
+	body{
+		background: url('../img/bg.jpg') no-repeat center center fixed;
+	}
+}

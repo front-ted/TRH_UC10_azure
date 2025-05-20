@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 163.8 163.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #004c93;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_366);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_366" data-name="Gradiente sem nome 366" x1="-1592.35" y1="215.3" x2="-1428.55" y2="215.3" gradientTransform="translate(1302.19 997.71) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#da0061" stop-opacity="0"/>
+      <stop offset=".11" stop-color="rgba(215, 4, 99, .02)" stop-opacity=".02"/>
+      <stop offset=".25" stop-color="rgba(209, 16, 108, .1)" stop-opacity=".1"/>
+      <stop offset=".4" stop-color="rgba(199, 37, 121, .21)" stop-opacity=".21"/>
+      <stop offset=".56" stop-color="rgba(184, 65, 140, .38)" stop-opacity=".38"/>
+      <stop offset=".73" stop-color="rgba(166, 102, 165, .59)" stop-opacity=".59"/>
+      <stop offset=".9" stop-color="rgba(144, 146, 194, .84)" stop-opacity=".84"/>
+      <stop offset="1" stop-color="#82aed5"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <circle class="cls-2" cx="81.9" cy="81.9" r="81.9"/>
+      <path class="cls-1" d="M34.21,122.44c-2.62,0-4.87-.93-6.74-2.8-1.87-1.87-2.8-4.11-2.8-6.74h19.08c-2.62,0-4.87-.93-6.74-2.8-1.87-1.87-2.8-4.11-2.8-6.74v-52.46c0-2.62.93-4.87,2.8-6.74s4.11-2.8,6.74-2.8h76.31c2.62,0,4.87.93,6.74,2.8s2.8,4.11,2.8,6.74v52.46c0,2.62-.93,4.87-2.8,6.74-1.87,1.87-4.11,2.8-6.74,2.8h19.08c0,2.62-.93,4.87-2.8,6.74-1.87,1.87-4.11,2.8-6.74,2.8H34.21ZM81.9,117.67c1.35,0,2.48-.46,3.4-1.37.91-.91,1.37-2.05,1.37-3.4s-.46-2.48-1.37-3.4c-.91-.91-2.05-1.37-3.4-1.37s-2.48.46-3.4,1.37-1.37,2.05-1.37,3.4.46,2.48,1.37,3.4,2.05,1.37,3.4,1.37ZM43.75,103.36h76.31v-52.46H43.75v52.46ZM43.75,103.36v-52.46,52.46Z"/>
+    </g>
+  </g>
+</svg>

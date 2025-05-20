@@ -1,0 +1,279 @@
+body{
+	background: url(../img/bg.jpg) no-repeat top center fixed;
+	padding-bottom: 100px;
+}
+.painel1{
+	background: url('../img/timeline.png') no-repeat;
+	width: 467px;
+	height: 1090px;
+	margin: 50px auto;
+	position: relative;
+}
+.painel1 button{
+	position: absolute;
+	background: transparent;
+	width: 80px;
+	height: 80px;
+	border: none;
+}
+.bt-1972{
+	right: 11px;
+    top: 196px;
+}
+.bt-1984{
+	left: 2px;
+    top: 400px;
+}
+.bt-1992{
+	right: 11px;
+	top: 600px;
+}
+.bt-2012{
+	left: 2px;
+	top: 800px;
+}
+.bt-2015{
+	right: 11px;
+	top: 1000px;
+}
+.legenda-painel p{
+	width: 190px;
+	height: 140px;
+	border: 3px solid #528c26;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+}
+.div{
+	height: 300px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.div1{background-image: url('../img/parallax1.jpg');}
+.div-renovaveis{
+	background: url('../img/dest_renov.png') no-repeat;
+	width: 406px;
+	height: 554px;
+	padding: 20px;
+	line-height: 22px;
+	padding-right: 40px;
+}
+.div-naorenovaveis{
+	background: url('../img/dest_nao_renov.png') no-repeat;
+	width: 404px;
+	height: 551px;
+	padding: 20px;
+	line-height: 22px;
+	padding-top: 405px;
+    padding-left: 65px;
+}
+.jornal{
+	background: url('../img/jornal.jpg') no-repeat;
+	width: 901px;
+	height: 920px;
+	padding: 20px;
+	padding-top: 150px;
+}
+.jornal p b{font-size: 50px;}
+.jornal p, .jornal figcaption{
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.info1{
+	width: 400px;
+	margin: 50px auto;
+	max-width: 100%;
+}
+.info1 li{
+	background: #014a8f;
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 10px;
+	position: relative;
+	list-style: none;
+	padding-left: 60px;
+}
+.info1 li::before{
+	content: '';
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left: -40px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.info1 li:first-child::before{
+	background: url('../img/1.svg') no-repeat;
+}
+.info1 li:nth-child(2)::before{
+	background: url('../img/2.svg') no-repeat;
+}
+.info1 li:nth-child(3)::before{
+	background: url('../img/3.svg') no-repeat;
+}
+.info1 li:nth-child(4)::before{
+	background: url('../img/4.svg') no-repeat;
+}
+.info1 li:nth-child(5)::before{
+	background: url('../img/5.svg') no-repeat;
+}
+.div2{
+	background-image: url('../img/parallax3.jpg');
+	background-position: center;
+}
+.div3{
+	background-image: url('../img/parallax4.jpg');
+	background-position: top center;
+}
+.div4{
+	background-image: url('../img/parallax5.jpg');
+	background-position: center;
+}
+.painel2{
+	background: url('../img/Painel1.png') no-repeat;
+	width: 926px;
+	height: 558px;
+	margin: 50px auto;
+	padding: 100px 30px;
+}
+.painel2 button{
+	height: 90px;
+    width: 280px;
+	font-size: 17px;
+	line-height: 22px;
+}
+.painel3 button{
+	position: relative;
+	border: none;
+	height: 205px;
+	margin: 10px;
+	background: transparent;
+}
+.painel3 button::before{
+	content: '';
+	width: 205px;
+	height: 205px;
+	background: url('../img/painel2_selo.svg') no-repeat;
+	border: none;
+	position: absolute;
+	top: 0;
+}
+.painel3 button:hover::before{
+	-webkit-animation: rotate-center 10s linear infinite both;
+	        animation: rotate-center 10s linear infinite both;
+}
+.painel3 button span{
+	width: 205px;
+	padding: 5px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.painel3 .check.visitado::after{
+	top: unset;
+	bottom: 95px;
+}
+
+@-webkit-keyframes rotate-center {
+	0% {
+	  -webkit-transform: rotate(0);
+			  transform: rotate(0);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+			  transform: rotate(360deg);
+	}
+}
+@keyframes rotate-center {
+	0% {
+		-webkit-transform: rotate(0);
+				transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+	}
+}
+
+.div5{
+	background-image: url('../img/parallax2.jpg');
+	background-position: center;
+}
+
+.painel4 button{
+	width: 175px;
+	padding: 5px;
+	font-size: 18px;
+	line-height: 22px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.painel4 button::before{
+	content: '';
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	left: -65px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.painel4 .bt-corporativa::before{
+	background: url('../img/painel3_bt1.svg') no-repeat;
+}	
+.painel4 .bt-transparencia::before{
+	background: url('../img/painel3_bt2.svg') no-repeat;
+}	
+.painel4 .bt-prestacao::before{
+	background: url('../img/painel3_bt3.svg') no-repeat;
+}
+.painel4 .bt-equidade::before{
+	background: url('../img/painel3_bt4.svg') no-repeat;
+}	
+.painel4 .bt-responsabilidade::before{
+	background: url('../img/painel3_bt5.svg') no-repeat;
+}
+
+@media screen and (max-width: 960px) {
+	.painel2{
+		background: url('../img/Painel1_mobile.png') no-repeat;
+		width: 398px;
+		height: 1037px;
+		margin: 50px auto;
+		justify-content: center;
+	}
+	.painel2 button{
+		padding: 5px 10px;
+		height: 82px;
+	}
+}
+@media screen and (max-width: 930px) {
+	.jornal{
+		background: url('../img/jornal_mobile.jpg') no-repeat #e2e2e2;
+		width: 408px;
+		height: auto;
+		padding: 20px;
+		padding-top: 150px;
+		max-width: 100%;
+	}
+	.jornal p b {
+		font-size: 40px;
+	}
+}
+@media (max-width: 500px){
+	.painel2{max-width: 100%;}
+	.painel1{
+		transform: scale(0.8);
+		margin: -70px;
+	}
+}

@@ -1,0 +1,196 @@
+body{
+	background: url('../img/bg_gradiente1.png') no-repeat left top;
+}
+.bloco1{
+	background: url('../img/bg_canto1.png') no-repeat left bottom -1px / 15%;
+}
+.bloco2{
+	background: url('../img/bg_elemento1.png') no-repeat center left / 15%, url('../img/bg_canto_branco.png') no-repeat bottom right / 15%, url('../img/bg_canto_branco2.png') no-repeat top right / 15%, linear-gradient(to bottom, #590d33 0%, #2b0619 50%);
+}
+.bloco2 h3, .bloco2 p,
+.bloco2 li, .bloco2 h4,
+.bloco4 h3, .bloco4 p,
+.bloco4 li, .bloco4 h4,
+.bloco6 p, .bloco6 h3,
+.bloco6 li{color: #fff;}
+
+.bloco2 .modal p,
+.bloco2 .modal li,
+.bloco4 .modal p,
+.bloco4 .modal li,
+.bloco6 .box-atividade p{color: #000;}
+
+
+.painel1 button,
+.painel2 button{
+	position: relative;
+	width: 300px;
+	height: 281px;
+	border: none;
+	background-color: transparent;
+	margin: 20px 0;
+	z-index: 2;
+}
+.painel1 .bt-civil{
+	background: url('../img/painel1_bt1.png') no-repeat center;
+}
+.painel1 .bt-criminal{
+	background: url('../img/painel1_bt2.png') no-repeat center;
+}
+.painel1 button::before,
+.painel2 button::before,
+.painel3 button::before{
+	content: '';
+	display: none;
+	background: url('../img/hover.png') no-repeat;
+	width: 289px;
+	height: 281px;
+	position: absolute;
+	top: -10px;
+    left: 10px;
+    margin: auto;
+	z-index: -1;
+	-webkit-animation: rotate-center 5s linear infinite both;
+	        animation: rotate-center 5s linear infinite both;
+}
+.painel3 button::before{
+	height: 185px;
+	width: 185px;
+	background-size: contain;
+	z-index: 0;
+	top: -170px;
+    left: 0;
+}
+.painel1 button:hover::before,
+.painel2 button:hover::before,
+.painel3 button:hover::before{display: block;}
+.painel1 button span,
+.painel2 button span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 289px;
+	z-index: 2;
+}
+.painel1 button.check.visitado::after,
+.painel2 button.check.visitado::after{
+    bottom: 35px;
+    right: 0;
+    top: unset;
+	z-index: 3;
+}
+
+@-webkit-keyframes rotate-center {
+	0% {
+	  -webkit-transform: rotate(0);
+			  transform: rotate(0);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+			  transform: rotate(360deg);
+	}
+}
+@keyframes rotate-center {
+	0% {
+		-webkit-transform: rotate(0);
+				transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+	}
+}
+
+.bloco3{
+	background: url('../img/bg_elemento2.png') no-repeat center right / 15%, url('../img/bg_canto2.png') no-repeat top left / 15%, url('../img/Bg_canto3.png') no-repeat bottom -1px left / 15%;
+}
+.bloco4{
+	background: url('../img/bg_elemento3.png') no-repeat top 10% left / 15%, url('../img/bg_canto_branco.png') no-repeat bottom right / 15%, url('../img/bg_canto_branco2.png') no-repeat top right / 15%, linear-gradient(to bottom, #063a60 0%, #032036 50%);
+}
+.painel2 button span{width: 296px;}
+.painel2 .bt-doenca{
+	background: url('../img/painel2_bt1.png') no-repeat center;
+}
+.painel2 .bt-acidentario{
+	background: url('../img/painel2_bt2_1.png') no-repeat center;
+}
+.painel2 .bt-acidente{
+	background: url('../img/painel2_bt3.png') no-repeat center;
+}
+.destaque-imagem{
+	background: url('../img/destaque1.jpg') no-repeat center;
+	background-size: cover;
+	padding: 30px;
+	padding-right: 50%;
+}
+.bloco5{
+	background: url('../img/bg_canto4.png') no-repeat top left / 15%;
+}
+.painel3{
+	background: url('../img/painel3.jpg') no-repeat;
+	width: 614px;
+	height: 468px;
+	margin: auto;
+	position: relative;
+}
+.painel3 > div{
+	position: absolute;
+	height: 185px;
+	width: 190px;
+}
+.painel3 .botao{
+	height: 65px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.bt-pessoais{
+	bottom: 10px;
+	left: 10px;
+}
+.bt-situacionais{
+	bottom: 50px;
+	right: 30px;
+}
+.bloco6{
+	background: url('../img/bg_canto_branco3.png') no-repeat bottom left / 15%, url('../img/bg_canto_branco2.png') no-repeat top right / 15%, linear-gradient(to right, #2b0618 0%, #590d33 50%)
+}
+.bloco7{
+	background: url('../img/bg_gradiente2.png') no-repeat right bottom;
+}
+
+@media (max-width: 1280px){
+	.bloco2{
+		background: url('../img/bg_canto_branco.png') no-repeat bottom right / 15%, url('../img/bg_canto_branco2.png') no-repeat top right / 15%, linear-gradient(to bottom, #590d33 0%, #2b0619 50%);
+	}
+	.bloco3{
+		background: url('../img/bg_canto2.png') no-repeat top left / 15%, url('../img/Bg_canto3.png') no-repeat bottom left / 15%;
+	}
+	.bloco4{
+		background: url('../img/bg_canto_branco.png') no-repeat bottom right / 15%, url('../img/bg_canto_branco2.png') no-repeat top right / 15%, linear-gradient(to bottom, #063a60 0%, #032036 50%);
+	}
+}
+
+@media (max-width: 690px){
+	.painel3{
+		background: url('../img/painel3_mobile.jpg') no-repeat;
+		height: 468px;
+		width: 286px;
+	}
+ 	.bt-pessoais{
+		top: 130px;
+        left: 58px;
+	}
+	.bt-situacionais{
+		bottom: -78px;
+        right: 40px;
+	}
+	.destaque-imagem{
+		background: url('../img/destaque1_mobile.jpg') no-repeat center;
+		padding-right: 20px;
+		width: 400px;
+		margin: 0 auto;
+		height: 666px;
+	}
+}

@@ -1,0 +1,320 @@
+body{
+    background: url(../img/bg.jpg) repeat;
+}
+.container-fluid{
+    max-width: 1580px;
+    margin: 0 auto;
+}
+.modal-body{background: #fff6f9;}
+/*TELA INICIAL*/
+.painel-inicial{
+    background: url('../img/titulo-central.png') no-repeat center;
+    width: 1250px;
+    min-height: 855px;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.painel-inicial::before{
+    content: '';
+    background: url('../img/flutuante02.png') no-repeat center;
+    width: 292px;
+    height: 293px;
+    position: absolute;
+    right: -200px;
+    top: 100px;
+    z-index: -1;
+}
+.painel-inicial::after{
+    content: '';
+    background: url('../img/flutuante01.png') no-repeat center;
+    width: 441px;
+    height: 441px;
+    position: absolute;
+    left: -200px;
+    bottom: 0;
+    z-index: -1;
+}
+.painel-inicial button{
+    position: absolute;
+}
+.bt-intro{
+    top: 40px;
+    left: 140px;
+}
+.bt-genero{
+    top: 270px;
+    left: 0;
+    width: 210px;
+}
+.bt-lqbtqiapn{
+    top: 525px;
+    left: 0;
+    width: 210px;
+}
+.bt-igualdade{
+    bottom: 45px;
+    left: 100px;
+    width: 210px;
+}
+.bt-deficiencia{
+    top: 20px;
+    right: 0;
+    width: 305px;
+}
+.bt-gordofobia{
+    top: 280px;
+    right: 0;
+    width: 210px;
+}
+.bt-etarismo{
+    top: 500px;
+    right: 0;
+    width: 210px;
+}
+.bt-encerramento{
+    bottom: 45px;
+    right: 100px;
+    width: 210px;
+}
+@media (max-width: 1580px){
+    .painel-inicial::before, .painel-inicial::after{
+        display: none;
+    }
+}
+@media (max-width: 1300px){
+    .painel-inicial{
+        background: url('../img/tit_diversidade.png') no-repeat center top;
+        width: 100%;
+        min-height: unset;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        background-size: contain;
+        padding-top: 25%;
+    }
+    .painel-inicial button{
+        position: unset;
+        width: 100%;
+        max-width: 400px;
+        margin: 10px auto;
+    }
+}
+/*TELA INICIAL*/
+.destaque-imagem{
+    padding: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.destaque-imagem.desigualdade{background-image: url(../img/img4.jpg);}
+.destaque-imagem p{
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+.info1{
+    max-width: 580px;
+    border: 2px solid #da0061;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.info1 p{
+    background: #da0061;
+    color: #fff;
+    border-radius: 17px 17px 0 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.7em;
+}
+.circulo{
+    position: relative;
+    z-index: 1;
+}
+.circulo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1050px;
+    height: 1050px;
+    background: url(../img/circulo_ripado.svg) no-repeat center;
+    z-index: -1;
+}
+.info1 li{
+    margin-bottom: 20px;
+    padding-left: 120px;
+    list-style: none;
+}
+.info1 li b{color: #da0061;}
+.info1 li:nth-child(1){background: url('../img/principios_ico1.svg') no-repeat left top / 100px;}
+.info1 li:nth-child(2){background: url('../img/principios_ico2.svg') no-repeat left top / 100px;}
+.info1 li:nth-child(3){background: url('../img/principios_ico3.svg') no-repeat left top / 100px;}
+.info1 li:nth-child(4){background: url('../img/principios_ico4.svg') no-repeat left top / 100px;}
+.info1 li:nth-child(5){background: url('../img/principios_ico5.svg') no-repeat left top / 100px;}
+.info1 li:nth-child(6){background: url('../img/principios_ico6.svg') no-repeat left top / 100px;}
+.info1 li:nth-child(7){background: url('../img/principios_ico7.svg') no-repeat left top / 100px;}
+
+.destaque-imagem.LGBTQIAPN{background: url(../img/img5.jpg) no-repeat center / cover;}
+.info2{
+    background: #D1E1F0;
+    background: linear-gradient(200deg, rgba(209, 225, 240, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    margin: 150px auto;
+}
+.info2 li{
+    margin-bottom: 20px;
+    list-style: none;
+    padding-left: 90px;
+    min-height: 70px;
+    width: 50%;
+}
+.info2 li:nth-child(1){background: url('../img/Bandeira_lesbica.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(2){background: url('../img/Bandeira_gay.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(3){background: url('../img/Bandeira_bisexual.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(4){background: url('../img/Bandeira_trans.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(5){background: url('../img/Bandeira_queer.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(6){background: url('../img/Bandeira_intersexo.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(7){background: url('../img/Bandeira_asexual.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(8){background: url('../img/Bandeira_pan.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(9){background: url('../img/Bandeira_nbinario.svg') no-repeat left top / 75px;}
+.info2 li:nth-child(10){background: url('../img/Bandeira_mais.svg') no-repeat left top / 75px;}
+
+.info2 li b{color:#da0061;}
+.info2 li big{font-size: 30px;}
+.circulos{position: relative;}
+.circulos::before{
+    content: '';
+    position: absolute;
+    top: -90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 260px;
+    height: 260px;
+    background: url(../img/circulo_ripado.svg) no-repeat center;
+    z-index: 1;
+}
+.circulos::after{
+    content: '';
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 260px;
+    height: 260px;
+    background: url(../img/circulo_ripado.svg) no-repeat center;
+    z-index: 0;
+}
+.destaque-imagem.mobilidade{
+    background: url(../img/img12.jpg) no-repeat center / cover;
+    padding-left: 50%;
+}
+.destaque-imagem.legislacao{
+    background: url(../img/destaque_direito.jpg) no-repeat center / cover;
+    padding-left: 40%;
+}
+.destaque-imagem.legislacao li{color: #fff;}
+.info3{
+    background: #D1E1F0;
+    background: linear-gradient(200deg, rgba(209, 225, 240, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 150px;
+    margin-top: 80px;
+}
+.circulos.lista::before{
+    content: '';
+    position: absolute;
+    margin: unset;
+    left: unset;
+    top: -80px;
+    right: -40px;
+    width: 125px;
+    height: 125px;
+    background: url(../img/lista.svg) no-repeat center;
+    z-index: 2;
+}
+
+.painel-geracoes .botoes{
+    width: 100%;
+    position: relative;
+}
+.painel-geracoes button{
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    height: 220px;
+    position: relative;
+}
+.painel-geracoes button span{
+    padding: 5px;
+	font-size: 18px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.painel-geracoes .bt1{
+    background: url('../img/painel_geracao1.svg');
+}
+.painel-geracoes .bt2{
+    background: url('../img/painel_geracao2.svg');
+}
+.painel-geracoes .bt3{
+    background: url('../img/painel_geracao3.svg');
+}
+.painel-geracoes .bt4{
+    background: url('../img/painel_geracao4.svg');
+}
+.painel-geracoes .aba{
+    border-radius: 30px;
+    margin-top: -5px;
+    padding: 50px;
+    display: none;
+    transition: all .4s;
+}
+.painel-geracoes .aba h4{margin-top: 0;}
+.painel-geracoes .aba1{display: block;}
+
+.titulo-ativ{font-size: 1em;}
+
+@media (max-width: 990px) {
+    .painel-geracoes .aba{
+        margin-top: 50px;
+        padding-top: 50px;
+        display: block !important;
+    }
+    .bg-podcast::before{display: none;}
+    .bg-podcast::after{display: none;}
+    .destaque-imagem.desigualdade{
+        background: url('../img/img4_mobile.jpg') no-repeat center / cover;
+    }
+    .destaque-imagem.LGBTQIAPN{
+        background: url('../img/img5_mobile.jpg') no-repeat center / cover;
+    }
+    .destaque-imagem.mobilidade{
+        background: url('../img/img12_mobile.jpg') no-repeat center / cover;
+        min-height: 600px;
+        padding-left: 40px;
+        background-position: left top;
+    }
+    .destaque-imagem.legislacao{
+        background: url('../img/destaque_direito_1.jpg') no-repeat center / cover;
+        min-height: 600px;
+        padding-left: 20px;
+        background-position: left top;
+    }
+}
+
+@media (max-width: 768px){
+    .esquemaDaBru .alt-c, .esquemaDaBru .alt-e{width: 78%;}
+    .info2 li{width: 100%;}
+}

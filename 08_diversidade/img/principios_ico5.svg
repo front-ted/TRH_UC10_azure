@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 95.34 81.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #004c93;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_4);
+      }
+
+      .cls-3 {
+        fill: #d9d9d9;
+      }
+
+      .cls-4 {
+        fill: #82aed5;
+      }
+    </style>
+    <mask id="mask" x="35.58" y="-10.79" width="68.27" height="67.5" maskUnits="userSpaceOnUse">
+      <g id="mask0_88_68" data-name="mask0 88 68">
+        <rect class="cls-3" x="18.7" y="13.65" width="53.29" height="2.22" transform="translate(16.57 52.78) rotate(-70.91)"/>
+        <rect class="cls-3" x="23.13" y="15.14" width="53.29" height="2.22" transform="translate(18.14 57.97) rotate(-70.91)"/>
+        <rect class="cls-3" x="27.56" y="16.63" width="53.29" height="2.22" transform="translate(19.71 63.16) rotate(-70.91)"/>
+        <rect class="cls-3" x="31.99" y="18.12" width="53.29" height="2.22" transform="translate(21.28 68.35) rotate(-70.91)"/>
+        <rect class="cls-3" x="36.42" y="19.61" width="53.29" height="2.22" transform="translate(22.86 73.54) rotate(-70.91)"/>
+        <rect class="cls-3" x="40.85" y="21.11" width="53.29" height="2.22" transform="translate(24.43 78.74) rotate(-70.91)"/>
+        <rect class="cls-3" x="45.29" y="22.6" width="53.29" height="2.22" transform="translate(26 83.93) rotate(-70.91)"/>
+        <rect class="cls-3" x="49.72" y="24.09" width="53.29" height="2.22" transform="translate(27.57 89.12) rotate(-70.91)"/>
+        <rect class="cls-3" x="54.15" y="25.58" width="53.29" height="2.22" transform="translate(29.15 94.31) rotate(-70.91)"/>
+        <rect class="cls-3" x="58.58" y="27.07" width="53.29" height="2.22" transform="translate(30.72 99.5) rotate(-70.91)"/>
+        <rect class="cls-3" x="63.01" y="28.57" width="53.29" height="2.22" transform="translate(32.29 104.7) rotate(-70.91)"/>
+        <rect class="cls-3" x="67.44" y="30.06" width="53.29" height="2.22" transform="translate(33.86 109.89) rotate(-70.91)"/>
+      </g>
+    </mask>
+    <linearGradient id="Gradiente_sem_nome_4" data-name="Gradiente sem nome 4" x1="47.26" y1="4295.64" x2="95.34" y2="4295.64" gradientTransform="translate(0 4319.68) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".33" stop-color="#82aed5"/>
+      <stop offset="1" stop-color="#da0061"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <polygon class="cls-4" points="23.32 39.46 25.39 54.53 38.18 62.78 23.11 64.85 14.86 77.64 12.79 62.56 0 54.32 15.08 52.25 23.32 39.46"/>
+      <g class="cls-5">
+        <circle class="cls-2" cx="71.3" cy="24.04" r="24.04"/>
+      </g>
+      <path class="cls-1" d="M18.01,45.21l-1-5c-.67-.28-1.29-.57-1.88-.88s-1.18-.68-1.79-1.12l-4.83,1.5-3.33-5.67,3.83-3.33c-.11-.72-.17-1.44-.17-2.17s.06-1.44.17-2.17l-3.83-3.33,3.33-5.67,4.83,1.5c.61-.44,1.21-.82,1.79-1.12s1.21-.6,1.88-.88l1-5h6.67l1,5c.67.28,1.29.57,1.88.88s1.18.68,1.79,1.12l4.83-1.5,3.33,5.67-3.83,3.33c.11.72.17,1.44.17,2.17s-.06,1.44-.17,2.17l3.83,3.33-3.33,5.67-4.83-1.5c-.61.44-1.21.82-1.79,1.12s-1.21.6-1.88.88l-1,5h-6.67ZM21.34,35.21c1.83,0,3.4-.65,4.71-1.96s1.96-2.88,1.96-4.71-.65-3.4-1.96-4.71-2.88-1.96-4.71-1.96-3.4.65-4.71,1.96-1.96,2.88-1.96,4.71.65,3.4,1.96,4.71,2.88,1.96,4.71,1.96ZM47.84,81.88l-1.5-7c-.94-.33-1.82-.74-2.62-1.21s-1.6-1.01-2.38-1.62l-6.67,2.17-4.67-8,5.33-4.67c-.11-1-.17-2-.17-3s.06-2,.17-3l-5.33-4.67,4.67-8,6.67,2.17c.78-.61,1.57-1.15,2.38-1.62s1.68-.88,2.62-1.21l1.5-7h9.33l1.5,7c.94.33,1.82.74,2.62,1.21s1.6,1.01,2.38,1.62l6.67-2.17,4.67,8-5.33,4.67c.11,1,.17,2,.17,3s-.06,2-.17,3l5.33,4.67-4.67,8-6.67-2.17c-.78.61-1.57,1.15-2.38,1.62s-1.68.88-2.62,1.21l-1.5,7h-9.33ZM52.51,68.55c2.78,0,5.14-.97,7.08-2.92,1.94-1.94,2.92-4.31,2.92-7.08s-.97-5.14-2.92-7.08-4.31-2.92-7.08-2.92-5.14.97-7.08,2.92-2.92,4.31-2.92,7.08.97,5.14,2.92,7.08c1.94,1.94,4.31,2.92,7.08,2.92Z"/>
+    </g>
+  </g>
+</svg>

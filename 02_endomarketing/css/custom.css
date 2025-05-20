@@ -1,0 +1,136 @@
+.bloco1{
+	background:  url('../img/bg_01.png') no-repeat center top;
+	background-size: cover;
+}
+.bloco1 .container > h2, 
+.bloco1 .container > h3, 
+.bloco1 .container > p{color: #fff;}
+.bloco2{
+	background: rgb(240,213,222);
+	background: linear-gradient(0deg, rgba(240,213,222,1) 0%, rgba(255,255,255,1) 25%, rgba(238,243,247,1) 50%, rgba(255,255,255,1) 75%, rgba(207,219,231,1) 100%);
+	padding-bottom: 100px;
+}
+.painel1 button{
+	position: relative;
+	width: 187px;
+	height: 250px;
+	border: none;
+	background-color: transparent;
+	margin: 20px 0;
+}
+.painel1 .bt-rh{
+	background: url('../img/bt_01.png') no-repeat center;
+}
+.painel1 .bt-rh:hover{
+	background: url('../img/hover_01.png') no-repeat center;
+}
+.painel1 .bt-beneficios{
+	background: url('../img/bt_02.png') no-repeat center;
+}
+.painel1 .bt-beneficios:hover{
+	background: url('../img/hover_02.png') no-repeat center;
+}
+.painel1 .bt-incentivo{
+	background: url('../img/bt_03.png') no-repeat center;
+}
+.painel1 .bt-incentivo:hover{
+	background: url('../img/hover_03.png') no-repeat center;
+}
+.painel1 .bt-sensibilizacao{
+	background: url('../img/bt_04.png') no-repeat center;
+}
+.painel1 .bt-sensibilizacao:hover{
+	background: url('../img/hover_04.png') no-repeat center;
+}
+.painel1 button span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 180px;
+	border-radius: 40px;
+	padding: 5px 20px;
+	color: #31649b;
+	border-color: #31649b;
+	line-height: 22px;
+}
+.painel1 button:hover span{
+	background: #31649b;
+	color: #fff;
+}
+.painel1 button.check.visitado::after{
+    bottom: 35px;
+    right: 0;
+    top: unset;
+}
+
+.painel2{
+	max-width: 681px;
+	height: auto;
+	background: #F2F2F2;
+	background: linear-gradient(141deg, rgba(242, 242, 242, 1) 0%, rgba(216, 214, 214, 1) 100%);
+	position: relative;
+	padding: 100px 110px 50px 100px;
+	border-radius: 40px;
+	border: 20px solid #81a9cd;
+}
+.painel2::before{
+	content: '';
+	background: url('../img/pn_001.png');
+	width: 278px;
+	height: 71px;
+	position: absolute;
+	top: -30px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.bt-popover{
+	background: url('../img/bt_001.png') no-repeat left top transparent;
+	font-weight: bold;
+	border: none;
+	padding-left: 45px;
+	min-height: 35px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+.bt-popover::after{display: none;}
+.bt-popover:hover,
+.bt-popover.visitado{background: url('../img/hover_001.png') no-repeat left top transparent;}
+
+.destaque-imagem{
+	background: url('../img/destaque.jpg') no-repeat center;
+	background-size: cover;
+	padding: 80px;
+}
+.destaque-imagem li{color: #fff;}
+.bt-objeto::before{display: none;}
+
+.bg-flutuante{
+	background: url('../img/imglateral_01.png') no-repeat right top 3%;
+	background-size: 15%;
+}
+@media screen and (max-width: 1240px) {
+	.bg-flutuante{background: none;}
+}
+
+@media screen and (max-width: 890px){
+	.carousel-indicators{
+		margin-right: 35%;
+		margin-left: 35%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.destaque-imagem{padding: 20px;}
+	.painel2{padding: 70px 30px;}
+}
+
+@media screen and (max-width: 580px) {
+    .bt-objeto {
+        height: 200px;
+    }
+	.bt-objeto::after {
+        top: 0;
+    }
+}

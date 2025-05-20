@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107.46 64.48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #018114;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #014cff;
+      }
+
+      .cls-3 {
+        fill: #8a018c;
+      }
+
+      .cls-4 {
+        fill: #fe0000;
+      }
+
+      .cls-5 {
+        fill: #fe0;
+      }
+
+      .cls-6 {
+        fill: #fe8d00;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <rect class="cls-4" width="107.46" height="10.75"/>
+      <rect class="cls-6" y="10.75" width="107.46" height="10.75"/>
+      <rect class="cls-5" y="21.49" width="107.46" height="10.75"/>
+      <rect class="cls-1" y="32.24" width="107.46" height="10.75"/>
+      <rect class="cls-2" y="42.98" width="107.46" height="10.75"/>
+      <rect class="cls-3" y="53.73" width="107.46" height="10.75"/>
+    </g>
+  </g>
+</svg>

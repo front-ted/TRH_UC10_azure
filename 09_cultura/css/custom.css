@@ -1,0 +1,147 @@
+body{
+	background: url(../img/bg.jpg) no-repeat top center;
+	background-attachment: fixed;
+}
+.gradiente li{color: #fff;}
+.info1{
+	border: 3px solid #89add1;
+	padding: 10px;
+	max-width: 660px;
+	margin-top: 60px;
+}
+.info1.esquerda{
+	background: #8AACD1;
+	background: linear-gradient(260deg, rgba(138, 172, 209, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.info1.direita{
+	background: #8AACD1;
+	background: linear-gradient(90deg, rgba(138, 172, 209, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.info1 img{
+	margin-top: -40px;
+	position: relative;
+}
+
+.painel1 button{
+	height: 160px;
+	width: 160px;
+	border: none;
+	position: relative;
+	background-color: transparent;
+	margin: 0 20px;
+}
+.painel1 button::before{
+	content: '';
+	height: 160px;
+	width: 160px;
+	background: url('../img/painel2_selo.svg') no-repeat;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.painel1 .bt-azulclaro::before{background: url('../img/Painel1_bt1_4_6.png') no-repeat center;}
+.painel1 .bt-azulescuro::before{background: url('../img/painel1_bt2_7.png') no-repeat center;}
+.painel1 .bt-rosa::before{background: url('../img/painel1_bt3_5.png') no-repeat center;}
+
+.painel1 button:hover::before{
+	-webkit-animation: rotate-center 10s linear infinite both;
+	        animation: rotate-center 10s linear infinite both;
+}
+
+.painel1 .check.visitado::after{
+	top: unset;
+	bottom: 90px;
+}
+
+@-webkit-keyframes rotate-center {
+	0% {
+	  -webkit-transform: rotate(0);
+			  transform: rotate(0);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+			  transform: rotate(360deg);
+	}
+}
+@keyframes rotate-center {
+	0% {
+		-webkit-transform: rotate(0);
+				transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+	}
+}
+
+.painel1 button span, 
+.painel2 button span,
+.painel4 button span{
+	padding: 10px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.painel2 button{
+	height: 205px;
+	width: 200px;
+	border: none;
+	position: relative;
+	background-color: transparent;
+	margin: 0 20px;
+}
+.painel2 .check.visitado::after{
+    bottom: 40px;
+    top: unset;
+}
+.bt-comportamentos{background: url('../img/painel2_bt1.png') no-repeat center;}
+.bt-simbolos{background: url('../img/painel2_bt2.png') no-repeat center;}
+.bt-rituais{background: url('../img/painel2_bt3.png') no-repeat center;}
+.painel2 button span{
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+}
+
+.painel3{
+	width: 420px;
+	height: 290px;
+	background: url('../img/painel3_bg.png') no-repeat left bottom;
+	margin: 50px auto;
+	padding-left: 220px;
+	padding-top: 50px;
+	max-width: 100%;
+}
+.painel3 button{
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.painel4 button{
+	width: 140px;
+	height: 200px;
+	border: none;
+	position: relative;
+	background-color: transparent;
+	margin: 20px;
+}
+.painel4 .check.visitado::after{
+    bottom: 40px;
+    top: unset;
+}
+.bt-netflix{background: url('../img/painel4_bt1.png') no-repeat center;}
+.bt-starbucks{background: url('../img/painel4_bt2.png') no-repeat center;}
+.painel4 button span{
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+}
